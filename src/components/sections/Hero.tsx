@@ -89,7 +89,7 @@ export default function Hero() {
       </div>
 
       {/* Conteúdo principal */}
-      <div className="container-section relative z-10 py-4 md:py-10 flex flex-col-reverse lg:flex-row gap-4 items-center">
+      <div className="container-section relative z-10 py-2 md:py-10 flex flex-col-reverse lg:flex-row gap-2 items-center">
 
         {/* Texto */}
         <div className="animate-fade-up flex-1">
@@ -104,7 +104,7 @@ export default function Hero() {
           </p>
 
           {/* Botões */}
-          <div className="mt-4 flex flex-col sm:flex-row gap-2">
+          <div className="mt-2 flex flex-col sm:flex-row gap-2">
             <Button asChild size="xl" variant="cta">
               <Link to="/cotacao">
                 Solicitar Orçamento <ArrowRight className="h-5 w-5" />
