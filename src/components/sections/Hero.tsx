@@ -104,7 +104,7 @@ export default function Hero() {
           </p>
 
           {/* Botões */}
-          <div className="mt-4 flex flex-col sm:flex-row gap-1">
+          <div className="mt-4 flex flex-col sm:flex-row gap-2">
             <Button asChild size="xl" variant="cta">
               <Link to="/cotacao">
                 Solicitar Orçamento <ArrowRight className="h-5 w-5" />
