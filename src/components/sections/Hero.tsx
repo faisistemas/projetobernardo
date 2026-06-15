@@ -89,7 +89,7 @@ export default function Hero() {
       </div>
 
       {/* Conteúdo principal */}
-      <div className="container-section relative z-10 py-4 md:py-10 flex flex-col-reverse lg:flex-row gap-8 items-center">
+      <div className="container-section relative z-10 py-4 md:py-10 flex flex-col-reverse lg:flex-row gap-4 items-center">
 
         {/* Texto */}
         <div className="animate-fade-up flex-1">
@@ -126,7 +126,7 @@ export default function Hero() {
     <img
       src={caminhao}
       alt="Caminhão de transporte"
-      className="relative rounded-2xl shadow-elegant border border-white/10 w-full mx-auto h-50 md:h-80 lg:h-[26rem]"
+      className="relative rounded-2xl shadow-elegant border border-white/10 w-full mx-auto h-42 md:h-80 lg:h-[26rem]"
     />
   </div>
 
