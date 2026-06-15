@@ -94,7 +94,10 @@ export default function Hero() {
         {/* Texto */}
         <div className="animate-fade-up flex-1">
           <h1 className="mt-1 font-display text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold leading-[1.05] tracking-tight">
-            Entregamos sua carga com <span className="text-accent">rapidez</span>, segurança e compromisso.
+            FRETES, MUDANÇAS E CARRETOS.
+          </h1>
+          <h1 className="mt-1 font-display text-3xl sm:text-4xl md:text-5xl lg:text-5xl font-extrabold leading-[1.05] tracking-tight">
+            <span className="text-accent">Entregamos sua carga com <span className="text-white">rapidez,</span> segurança e compromisso.</span>
           </h1>
           <p className="mt-4 text-xs md:text-xl text-white/85 max-w-xl leading-relaxed">
             Soluções logísticas inteligentes para empresas e pessoas em todo o Brasil. Cotação rápida, atendimento humanizado e rastreamento em tempo real.

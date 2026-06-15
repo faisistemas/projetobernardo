@@ -44,8 +44,8 @@ export default function Navbar() {
         </nav>
 
         <div className="hidden lg:flex items-center gap-3">
-          <a href="tel:+5511913390366" className="flex items-center gap-2 text-sm font-medium text-primary">
-            <Phone className="h-4 w-4" /> (11) 91339-0366
+          <a href="tel:+5511966391649" className="flex items-center gap-2 text-sm font-medium text-primary">
+            <Phone className="h-4 w-4" /> (11) 96639-1649
           </a>
           <Button asChild variant="cta" size="lg">
             <Link to="/cotacao">Solicitar Orçamento</Link>

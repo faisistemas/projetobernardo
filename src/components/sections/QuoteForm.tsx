@@ -38,7 +38,7 @@ export default function QuoteForm({ compact = false }: { compact?: boolean }) {
       toast.success("Cotação enviada! Entraremos em contato em breve.");
       e.currentTarget?.reset();
       const msg = `Olá! Solicito uma cotação:%0A%0ANome: ${res.data.nome}%0AEmpresa: ${res.data.empresa || "-"}%0ATelefone: ${res.data.telefone}%0AE-mail: ${res.data.email}%0AOrigem: ${res.data.origem}%0ADestino: ${res.data.destino}%0ATipo de carga: ${res.data.tipoCarga}%0AMensagem: ${res.data.mensagem || "-"}`;
-      window.open(`https://wa.me/5511913390366?text=${msg}`, "_blank");
+      window.open(`https://wa.me/5511966391649?text=${msg}`, "_blank");
     }, 800);
   }
 
