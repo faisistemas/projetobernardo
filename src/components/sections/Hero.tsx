@@ -94,9 +94,9 @@ export default function Hero() {
         {/* Texto */}
         <div className="animate-fade-up flex-1">
           <h1 className="font-display text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold leading-[1.05] tracking-tight">
-            FRETES, CARRETOS E MUDANÇAS.
+            FRETES, CARRETOS  <br />E MUDANÇAS.
           </h1>
-          <h1 className="mt-1 font-display text-3xl sm:text-4xl md:text-5xl lg:text-5xl font-extrabold leading-[1.05] tracking-tight">
+          <h1 className="mt-4 font-display text-2xl sm:text-3xl md:text-4xl lg:text-4xl font-extrabold leading-[1.05] tracking-tight">
             <span className="text-accent">Entregamos sua carga com <span className="text-white">rapidez,</span> segurança e compromisso.</span>
           </h1>
           <p className="mt-2 text-xs md:text-xl text-white/85 max-w-xl leading-relaxed">
@@ -104,7 +104,7 @@ export default function Hero() {
           </p>
 
           {/* Botões */}
-          <div className="mt-2 flex flex-col sm:flex-row gap-2">
+          <div className="mt-4 flex flex-col sm:flex-row gap-1">
             <Button asChild size="xl" variant="cta">
               <Link to="/cotacao">
                 Solicitar Orçamento <ArrowRight className="h-5 w-5" />
@@ -126,7 +126,7 @@ export default function Hero() {
     <img
       src={caminhao}
       alt="Caminhão de transporte"
-      className="relative rounded-2xl shadow-elegant border border-white/10 w-full mx-auto h-42 md:h-80 lg:h-[26rem]"
+      className="relative rounded-2xl shadow-elegant border border-white/10 w-full mx-auto h-42 md:h-80 lg:h-[24rem]"
     />
   </div>
 

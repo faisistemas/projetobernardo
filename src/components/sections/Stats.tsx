@@ -37,11 +37,11 @@ function Counter({ to, suffix }: { to: number; suffix: string }) {
 
 export default function Stats() {
   return (
-    <section className="py-6 bg-card border-y border-border">
-      <div className="container-section grid grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8">
+    <section className="py-2 bg-card border-y border-border">
+      <div className="container-section grid grid-cols-2 lg:grid-cols-4 gap-4 md:gap-8">
         {stats.map((s) => (
           <div key={s.label} className="text-center">
-            <div className="font-display text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold text-gradient">
+            <div className="font-display text-3xl sm:text-4xl md:text-5xl lg:text-5xl font-extrabold text-gradient">
               <Counter to={s.value} suffix={s.suffix} />
             </div>
             <div className="mt-2 text-sm md:text-base text-muted-foreground font-medium">{s.label}</div>
